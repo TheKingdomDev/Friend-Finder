@@ -45,7 +45,7 @@ module.exports = function(app) {
 			}
 		}
 
-		friends.push(usrData);
+		friendData.push(usrData);
  
 		res.json(greatMatch);
 	});
