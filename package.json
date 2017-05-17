@@ -1,0 +1,29 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Compatibility based application that takes survey results and compares answers to other users to find the best overall match",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheKingdomDev/Friend-Finder.git"
+  },
+  "keywords": [
+    "friendfinder",
+    "datingapp"
+  ],
+  "author": "Eric King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheKingdomDev/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/TheKingdomDev/Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
+}
