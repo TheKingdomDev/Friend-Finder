@@ -1,25 +1,168 @@
-var friendData = [
-    {
-  "name":"Ahmed",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+var friendsData = [
+  {
+      "name":"Mario",
+      "photo":"https://upload.wikimedia.org/wikipedia/en/9/99/MarioSMBW.png",
+      "scores":[
+         5,
+         1,
+         4,
+         4,
+         5,
+         1,
+         2,
+         5,
+         4,
+         1
+          ]
+      },
+  {
+  "name":"Yoda",
+  "photo":"https://upload.wikimedia.org/wikipedia/en/6/6f/Yoda_Attack_of_the_Clones.png",
   "scores":[
-      5,
-      1,
-      4,
-      4,
-      5,
-      1,
-      2,
-      5,
-      4,
-      1
-    ]
+     5,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
 },
+{
+  "name":"Peach",
+  "photo":"https://upload.wikimedia.org/wikipedia/en/d/d5/Peach_%28Super_Mario_3D_World%29.png",
+  "scores":[
+     9,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Darth Vader",
+  "photo":"https://vignette3.wikia.nocookie.net/starwars/images/3/37/Vader_TFU.jpg/revision/latest/scale-to-width-down/210?cb=20081111171655",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Luigi",
+  "photo":"https://www.mariowiki.com/images/thumb/5/5c/Luigi_MP10.png/150px-Luigi_MP10.png",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Archer",
+  "photo":"https://img.buzzfeed.com/buzzfeed-static/static/2016-03/18/17/enhanced/webdr04/enhanced-21194-1458335393-5.png",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Morty",
+  "photo":"http://img1.wikia.nocookie.net/__cb20140116010409/rickandmorty/images/e/e8/Morty.png",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Ragnar",
+  "photo":"https://staticdelivery.nexusmods.com/mods/110/images/77611-9-1470233288.gif",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Ken",
+  "photo":"https://upload.wikimedia.org/wikipedia/en/a/a5/Ken_Masters.png",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Ryu",
+  "photo":"https://upload.wikimedia.org/wikipedia/en/e/e5/Ryu_TvC.png",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+}
+]
 
-];
-
-
-module.exports = friendData;
+// Note how we export the array. This makes it accessible to other files using require.
+module.exports = friendsData;
 
 
 // Determine the user's most compatible friend using the following as a guide:
